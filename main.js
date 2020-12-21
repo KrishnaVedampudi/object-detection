@@ -16,7 +16,7 @@ function setup()
 function modelLoaded()
 {
     console.log('Model Loaded!');    
-    document.getElementsByName('body').style.opacity = "1.0";
+    document.getElementsByClassName('body').style.opacity = "1.0";
     objectDetector.detect(video, gotResults);
     document.getElementById('status').innerHTML = "Status : Detecting objects";
     status = true;     
