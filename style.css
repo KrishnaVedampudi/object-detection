@@ -1,0 +1,28 @@
+.heading
+{
+font-size: 23px;
+width: 100%;
+margin: 0px;
+}
+
+#status , #noo
+{
+font-size: 18px;
+}
+#loader
+{
+    position:sticky;  
+    opacity:1;  
+}
+
+body
+{
+    background-size:cover;
+    background-position:center;
+    opacity: 0.4;
+}
+canvas
+{
+    border-radius:15px;
+    box-shadow:5px 5px 5px grey;
+}
